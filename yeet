@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+	
+<head>	
+<style>
+#compliment{
+    
+border-width: thin medium thick 10px;
+    
+border-color: red;
+    
+position:absolute;
+    
+height:175px;
+    
+width:250px;
+    
+position:absolute;
+    
+left:150px;
+    
+top:50px;
+    
+font-size:50px;
+}
+#holla{
+    
+height:75px;
+    
+width:100px;
+    
+position:absolute;
+    
+left:1px;
+}
+#yeet{
+    
+height:75px;
+   
+width:100px;
+    
+position:absolute;
+    
+left:400px;
+}
+#bottom{
+    
+top:350px;
+    
+position:absolute;
+}
+#bad{
+    
+width:40px;
+    
+height:40px;
+    
+position:absolute;
+   
+top:450px;
+    
+left:50px;
+}
+#ok{
+        
+width:40px;
+    
+height:40px;
+    
+position:absolute;
+    
+top:450px;
+        
+left:400px;
+}
+#good{
+        
+width:40px;
+    
+height:40px;
+    
+position:absolute;
+    
+top:450px;
+    
+left:800px
+    
+}
+</style>
+<script>
+function done(){
+alert("I hope you had an upmostly complimenting experience! tell us how your experience was below in how upmostly complimented you were");
+        
+}
+function fun(){
+    
+var ya= document.getElementById('compliment');
+    
+    
+var click = document.getElementById("holla");
+    
+var num = Math.floor((Math.random() * 10));
+    
+console.log(num);
+    
+if(num===0){
+       
+    
+}
+    
+if(num===1){
+       
+random = "You are as cuboid as a cube"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===2){
+        
+random = "You are softer than a baby's bottom"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===3){
+        
+random = "You are sweeter than a starburst"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===4){
+        
+random = "You are more heated than a furnace"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===5){
+        
+random = "You are more slippery than a hippo"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===6){
+        
+random = "You are cooler than a refrigerator"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===7){
+        
+random = "You are sandier than a desert"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===8){
+        
+random = "You are more brickish than Ron's shot"
+        
+ya.innerHTML = random;
+    
+}
+    
+if(num===9){
+        
+random = "You have a bigger heart than Ron's forehead"
+        
+ya.innerHTML = random;
+    
+}
+}
+</script>
+<title>Compliments!</title>
+
+</head>
+	
+<body>
+	    
+<div id="compliment">Click the button to feel upmostly complimented</div>
+	    
+<button id="holla" onclick="fun()">Compliments!</button>
+	  
+<button id="yeet" onclick="done()">Im done being upmostly complimented!</button>
+	    
+<p id="bottom">I hope you feel upmostly complimented. How upmostly complimented were you?</p>
+	 
+<form action="">
+  
+<input id="bad" type="radio" name="radio" value="1">
+  
+<input id="ok" type="radio" name="radio" value="2" checked>
+  
+<input id="good" type="radio" name="radio" value="3"> 
+
+</form>
+
+</body>
+
+</html>
